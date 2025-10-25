@@ -86,7 +86,7 @@ export function Footer() {
               <Tooltip delayDuration={0}>
                 <TooltipTrigger asChild>
                   <a 
-                    href="https://www.instagram.com/indiaaccelerator/" 
+                    href="https://www.instagram.com/leapfwd.accelerator?igsh=NDM0czh1YzB3ZGQy" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center w-10 h-10 bg-white rounded-sm hover:bg-gray-200 transition-colors"

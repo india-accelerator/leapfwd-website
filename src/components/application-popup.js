@@ -55,13 +55,13 @@ export function ApplicationPopup() {
             {/* Timeline */}
             <div className="space-y-4 mb-8">
               {/* Applications Close */}
-              <div className="flex items-center justify-between py-3 border-b border-gray-200">
+              {/* <div className="flex items-center justify-between py-3 border-b border-gray-200">
                 <div className="flex items-center gap-3">
                   <Rocket className="h-5 w-5 text-[#3F64AB]" />
                   <span className="text-gray-700 font-medium">Applications Close</span>
                 </div>
                 <span className="text-gray-600 text-sm">1st November 2025</span>
-              </div>
+              </div> */}
 
               {/* Program Start */}
               <div className="flex items-center justify-between py-3 border-b border-gray-200">

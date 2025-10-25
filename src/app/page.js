@@ -1,35 +1,55 @@
-import Image from "next/image";
+import { Navbar } from "@/components/navbar";
+import { HeroSection } from "@/components/hero-section";
+import { AboutSection } from "@/components/about-section";
+import { ProgramBenefits } from "@/components/program-benefits";
+import { MissionSection } from "@/components/mission-section";
+import { StartupInfoSection } from "@/components/startup-info-section";
+import { AboutUsSection } from "@/components/about-us-section";
+import { ApplicationPopup } from "@/components/application-popup";
+import { Footer } from "@/components/footer";
+import { AnimatedSection } from "@/components/animated-section";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white flex flex-col items-center justify-center p-8">
-      {/* Logo at top center */}
-      <div className="mb-12">
-        <Image
-          src="/logos.png"
-          alt="Company Logo"
-          width={200}
-          height={80}
-          className="mx-auto"
-        />
-      </div>
+    <div className="min-h-screen bg-white">
+      {/* Navbar */}
+      <Navbar />
       
-      {/* Program image in center */}
-      <div className="mb-8">
-        <Image
-          src="/programImg.png"
-          alt="Program Image"
-          width={600}
-          height={400}
-          className="mx-auto"
-        />
-      </div>
+      {/* Hero Section */}
+      <HeroSection />
       
-      {/* Coming Soon text */}
-      <div className="text-center">
-        <h1 className="text-4xl font-bold text-gray-800 mb-4">Coming Soon</h1>
-        <p className="text-lg text-gray-600">We're working on something amazing!</p>
-      </div>
+      {/* About Section */}
+      <AnimatedSection delay={0}>
+        <AboutSection />
+      </AnimatedSection>
+      
+      {/* Program Benefits Section */}
+      <AnimatedSection delay={100}>
+        <ProgramBenefits />
+      </AnimatedSection>
+      
+      {/* Mission Section */}
+      <AnimatedSection delay={100}>
+        <MissionSection />
+      </AnimatedSection>
+      
+      {/* About Us Section */}
+      <AnimatedSection delay={100}>
+        <AboutUsSection />
+      </AnimatedSection>
+      
+      {/* Startup Info Section */}
+      <AnimatedSection delay={100}>
+        <StartupInfoSection />
+      </AnimatedSection>
+      
+      {/* Footer */}
+      <AnimatedSection delay={100}>
+        <Footer />
+      </AnimatedSection>
+
+      {/* Application Popup */}
+      <ApplicationPopup />
     </div>
   );
 }

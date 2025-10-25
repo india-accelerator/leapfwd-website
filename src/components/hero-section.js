@@ -39,7 +39,7 @@ export function HeroSection() {
         </p>
         
         {/* Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <div className="flex flex-row gap-4 justify-center items-center">
            <Button 
              asChild
              variant="outline"

@@ -34,7 +34,7 @@ export function Navbar() {
                   alt="Program Logo"
                   width={120}
                   height={40}
-                  className="h-12 w-auto"
+                  className="h-15 w-auto"
                 />
               </Link>
             </div>

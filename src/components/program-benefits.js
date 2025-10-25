@@ -23,7 +23,7 @@ export function ProgramBenefits() {
       <div className="max-w-7xl mx-auto">
         {/* Main Heading */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-2xl font-medium  text-[#3F64AB] mb-6 uppercase tracking-wide">
+          <h2 className="text-sm sm:text-2xl font-medium  text-[#3F64AB] mb-6 uppercase tracking-wide">
             LEAPFWD PROGRAM BENEFITS
           </h2>
           <h3 className="text-2xl sm:text-3xl font-bold text-black mb-6 uppercase tracking-wide">
@@ -175,54 +175,56 @@ export function ProgramBenefits() {
             </div>
           </div>
 
-          {/* Animated Beams */}
-          <AnimatedBeam
-            containerRef={containerRef}
-            fromRef={benefit1Ref}
-            toRef={benefit2Ref}
-            pathColor="#3F64AB"
-            pathWidth={2}
-            pathOpacity={0.3}
-            gradientStartColor="#BFDBFE"
-            gradientStopColor="#60a5fa"
-            duration={12}
-          />
-          <AnimatedBeam
-            containerRef={containerRef}
-            fromRef={benefit2Ref}
-            toRef={benefit3Ref}
-            pathColor="#3F64AB"
-            pathWidth={2}
-            pathOpacity={0.3}
-            gradientStartColor="#BFDBFE"
-            gradientStopColor="#60a5fa"
-            duration={12}
-            delay={3}
-          />
-          <AnimatedBeam
-            containerRef={containerRef}
-            fromRef={benefit3Ref}
-            toRef={benefit4Ref}
-            pathColor="#3F64AB"
-            pathWidth={2}
-            pathOpacity={0.3}
-            gradientStartColor="#BFDBFE"
-            gradientStopColor="#60a5fa"
-            duration={12}
-            delay={6}
-          />
-          <AnimatedBeam
-            containerRef={containerRef}
-            fromRef={benefit4Ref}
-            toRef={benefit5Ref}
-            pathColor="#3F64AB"
-            pathWidth={2}
-            pathOpacity={0.3}
-            gradientStartColor="#BFDBFE"
-            gradientStopColor="#60a5fa"
-            duration={8}
-            delay={6}
-          />
+          {/* Animated Beams - Hidden on Mobile */}
+          <div className="hidden lg:block">
+            <AnimatedBeam
+              containerRef={containerRef}
+              fromRef={benefit1Ref}
+              toRef={benefit2Ref}
+              pathColor="#3F64AB"
+              pathWidth={2}
+              pathOpacity={0.3}
+              gradientStartColor="#BFDBFE"
+              gradientStopColor="#60a5fa"
+              duration={12}
+            />
+            <AnimatedBeam
+              containerRef={containerRef}
+              fromRef={benefit2Ref}
+              toRef={benefit3Ref}
+              pathColor="#3F64AB"
+              pathWidth={2}
+              pathOpacity={0.3}
+              gradientStartColor="#BFDBFE"
+              gradientStopColor="#60a5fa"
+              duration={12}
+              delay={3}
+            />
+            <AnimatedBeam
+              containerRef={containerRef}
+              fromRef={benefit3Ref}
+              toRef={benefit4Ref}
+              pathColor="#3F64AB"
+              pathWidth={2}
+              pathOpacity={0.3}
+              gradientStartColor="#BFDBFE"
+              gradientStopColor="#60a5fa"
+              duration={12}
+              delay={6}
+            />
+            <AnimatedBeam
+              containerRef={containerRef}
+              fromRef={benefit4Ref}
+              toRef={benefit5Ref}
+              pathColor="#3F64AB"
+              pathWidth={2}
+              pathOpacity={0.3}
+              gradientStartColor="#BFDBFE"
+              gradientStopColor="#60a5fa"
+              duration={8}
+              delay={6}
+            />
+          </div>
         </div>
       </div>
     </section>

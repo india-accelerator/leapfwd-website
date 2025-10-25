@@ -16,7 +16,7 @@ export function Footer() {
         <div className="flex flex-col items-center justify-center text-center space-y-6">
           {/* Links Section */}
           <div>
-            <h3 className="text-white text-base font-medium mb-3">Links</h3>
+            <h3 className="text-white text-base font-medium mb-3">Socials</h3>
             {/* <ul className="space-y-2">
               <li>
                 <a href="#" className="text-white text-sm hover:text-gray-300 transition-colors">

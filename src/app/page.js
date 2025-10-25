@@ -8,6 +8,7 @@ import { AboutUsSection } from "@/components/about-us-section";
 import { ApplicationPopup } from "@/components/application-popup";
 import { Footer } from "@/components/footer";
 import { AnimatedSection } from "@/components/animated-section";
+import { ContactButton } from "@/components/contact-button";
 
 export default function Home() {
   return (
@@ -16,7 +17,9 @@ export default function Home() {
       <Navbar />
       
       {/* Hero Section */}
-      <HeroSection />
+      <AnimatedSection delay={0}>
+        <HeroSection />
+      </AnimatedSection>
       
       {/* About Section */}
       <AnimatedSection delay={0}>
@@ -50,6 +53,9 @@ export default function Home() {
 
       {/* Application Popup */}
       <ApplicationPopup />
+
+      {/* Contact Button */}
+      <ContactButton />
     </div>
   );
 }

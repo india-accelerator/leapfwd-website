@@ -51,7 +51,7 @@ export function AboutUsSection() {
             }}
             className="w-full"
           >
-            <CarouselContent className="-mt-1 h-[300px]">
+            <CarouselContent className="-mt-1 md:h-[300px] h-[500px]">
               {/* India Accelerator Slide */}
               <CarouselItem className="pt-1">
                 <div className="bg-white rounded-lg p-8 sm:p-10 shadow-sm h-full">

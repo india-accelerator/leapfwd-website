@@ -46,7 +46,7 @@ export function HeroSection() {
         {/* Description */}
         <div className="text-lg sm:text-xl text-white mb-12 max-w-3xl mx-auto leading-relaxed space-y-6">
           <p>
-            LeapFWD is a PropTech & ConTech Accelerator Program jointly driven by India Accelerator (IA) and Addor Group (VS Fortune) built to drive innovation, enable rapid growth, and scale breakthrough technologies in the real estate and construction ecosystem.
+            LeapFWD is a PropTech & ConTech Accelerator Program jointly driven by India Accelerator (IA) and VS Fortune built to drive innovation, enable rapid growth, and scale breakthrough technologies in the real estate and construction ecosystem.
           </p>
           <p>
             Designed for early- and growth-stage startups, LeapFWD bridges innovation with market scalability through mentorship, enterprise partnerships, investor access, and industry validation.

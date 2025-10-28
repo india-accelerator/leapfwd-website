@@ -23,20 +23,27 @@ export function Navbar() {
   return (
     <>
       {/* Main Navbar - Fixed */}
-      <nav className="fixed top-0 left-0 right-0 z-40 bg-white border-b border-gray-200">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
-            <div className="flex-shrink-0">
+            <div className="flex-shrink-0 flex items-center gap-6">
               <Link href="/" className="flex items-center">
                 <Image
-                  src="/leapfwd-img.png"
+                  src="/leapfwdProgramLogo.png"
                   alt="Program Logo"
                   width={120}
                   height={40}
                   className="h-15 w-auto"
                 />
               </Link>
+              <Image
+                src="/navLogos.png"
+                alt="Partner Logos"
+                width={200}
+                height={40}
+                className="h-8 w-auto"
+              />
             </div>
 
             {/* Navigation Menu */}
@@ -95,7 +102,7 @@ export function Navbar() {
 
       {/* Sub Navbar - Becomes Sticky on Scroll */}
       <div 
-        className={`${isSubNavSticky ? 'fixed top-16' : 'relative'} left-0 right-0 z-50 bg-[#E8F4FF] border-b border-gray-200 transition-all duration-300 overflow-hidden ${
+        className={`${isSubNavSticky ? 'fixed top-16' : 'relative top-16'} left-0 right-0 z-40 bg-[#E8F4FF] border-b border-gray-200 transition-all duration-300 overflow-hidden ${
           isSubNavVisible ? 'max-h-20 opacity-100' : 'max-h-0 opacity-0'
         }`}
       >

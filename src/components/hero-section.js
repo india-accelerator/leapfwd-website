@@ -10,9 +10,19 @@ export function HeroSection() {
     <section 
       className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 relative overflow-hidden"
       style={{
-        background: 'linear-gradient(180deg, #000000 0%, #15223C 42.31%, #4470C3 100%)'
+        backgroundImage: 'url(/herobg.jpg)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
       }}
     >
+      {/* Gradient Overlay */}
+      <div 
+        className="absolute inset-0 z-0"
+        style={{
+          background: 'linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.1) 100%)'
+        }}
+      ></div>
       {/* Bubble Background */}
       <BubbleBackground 
         interactive={true}
@@ -34,9 +44,14 @@ export function HeroSection() {
         </h1>
         
         {/* Description */}
-        <p className="text-lg sm:text-xl text-white mb-12 max-w-3xl mx-auto leading-relaxed">
-          LeapFWD is a cohort-based accelerator by India Accelerator and VS Fortune Management and Consulting Pvt. Ltd., focused on PropTech and Construction-Tech startups. The program empowers high-potential ventures through expert mentorship, industry access, investor readiness, and market linkages, accelerating their growth from early traction to scalable success.
-        </p>
+        <div className="text-lg sm:text-xl text-white mb-12 max-w-3xl mx-auto leading-relaxed space-y-6">
+          <p>
+            LeapFWD is a PropTech & ConTech Accelerator Program jointly driven by India Accelerator (IA) and Addor Group (VS Fortune) built to drive innovation, enable rapid growth, and scale breakthrough technologies in the real estate and construction ecosystem.
+          </p>
+          <p>
+            Designed for early- and growth-stage startups, LeapFWD bridges innovation with market scalability through mentorship, enterprise partnerships, investor access, and industry validation.
+          </p>
+        </div>
         
         {/* Buttons */}
         <div className="flex flex-row gap-4 justify-center items-center">

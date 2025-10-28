@@ -40,9 +40,9 @@ export function ProgramBenefits() {
           {/* Single Row with 5 items */}
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 relative">
             {/* Benefit 1 */}
-            <div className="flex flex-col items-center relative">
+            <div className="flex flex-col items-center relative group cursor-pointer">
               {/* Icon Circle */}
-              <div ref={benefit1Ref} className="w-32 h-32 bg-white rounded-full flex items-center justify-center mb-6 relative z-10 shadow-lg">
+              <div ref={benefit1Ref} className="w-32 h-32 bg-white rounded-full flex items-center justify-center mb-6 relative z-10 shadow-lg transition-all duration-300 group-hover:scale-110 group-hover:shadow-xl group-hover:shadow-blue-200">
                 {/* Number Badge */}
                 <div className="absolute -top-2 -left-2 w-8 h-8 bg-black text-white rounded-full flex items-center justify-center text-sm font-bold z-20">
                   1
@@ -56,20 +56,20 @@ export function ProgramBenefits() {
                 />
               </div>
               {/* Content */}
-              <div className="text-center max-w-xs">
-                <h3 className="text-xl font-bold text-black mb-3">
+              <div className="text-center max-w-xs transition-all duration-300 group-hover:scale-105">
+                <h3 className="text-xl font-bold text-black mb-3 transition-colors duration-300 group-hover:text-[#3F64AB]">
                   Business Growth & Market Access Support
                 </h3>
-                <p className="text-[#3F64AB] text-sm leading-relaxed">
+                <p className="text-[#3F64AB] text-sm leading-relaxed transition-colors duration-300 group-hover:text-black">
                   Support for B2B/B2G linkages, lead generation, business model refinement, and pitch preparation.
                 </p>
               </div>
             </div>
 
             {/* Benefit 2 */}
-            <div className="flex flex-col items-center relative">
+            <div className="flex flex-col items-center relative group cursor-pointer">
               {/* Icon Circle */}
-              <div ref={benefit2Ref} className="w-32 h-32 bg-white rounded-full flex items-center justify-center mb-6 relative z-10 shadow-lg">
+              <div ref={benefit2Ref} className="w-32 h-32 bg-white rounded-full flex items-center justify-center mb-6 relative z-10 shadow-lg transition-all duration-300 group-hover:scale-110 group-hover:shadow-xl group-hover:shadow-blue-200">
                 {/* Number Badge */}
                 <div className="absolute -top-2 -left-2 w-8 h-8 bg-black text-white rounded-full flex items-center justify-center text-sm font-bold z-20">
                   2
@@ -83,20 +83,20 @@ export function ProgramBenefits() {
                 />
               </div>
               {/* Content */}
-              <div className="text-center max-w-xs">
-                <h3 className="text-xl font-bold text-black mb-3">
+              <div className="text-center max-w-xs transition-all duration-300 group-hover:scale-105">
+                <h3 className="text-xl font-bold text-black mb-3 transition-colors duration-300 group-hover:text-[#3F64AB]">
                   Funding And Investor Access
                 </h3>
-                <p className="text-[#3F64AB] text-sm leading-relaxed">
+                <p className="text-[#3F64AB] text-sm leading-relaxed transition-colors duration-300 group-hover:text-black">
                   Access to funding opportunities through investor connects, pitch sessions, and curated introductions.
                 </p>
               </div>
             </div>
 
             {/* Benefit 3 */}
-            <div className="flex flex-col items-center relative">
+            <div className="flex flex-col items-center relative group cursor-pointer">
               {/* Icon Circle */}
-              <div ref={benefit3Ref} className="w-32 h-32 bg-white rounded-full flex items-center justify-center mb-6 relative z-10 shadow-lg">
+              <div ref={benefit3Ref} className="w-32 h-32 bg-white rounded-full flex items-center justify-center mb-6 relative z-10 shadow-lg transition-all duration-300 group-hover:scale-110 group-hover:shadow-xl group-hover:shadow-blue-200">
                 {/* Number Badge */}
                 <div className="absolute -top-2 -left-2 w-8 h-8 bg-black text-white rounded-full flex items-center justify-center text-sm font-bold z-20">
                   3
@@ -110,20 +110,20 @@ export function ProgramBenefits() {
                 />
               </div>
               {/* Content */}
-              <div className="text-center max-w-xs">
-                <h3 className="text-xl font-bold text-black mb-3">
+              <div className="text-center max-w-xs transition-all duration-300 group-hover:scale-105">
+                <h3 className="text-xl font-bold text-black mb-3 transition-colors duration-300 group-hover:text-[#3F64AB]">
                   Build Strategic Partnerships & Pilot Opportunities
                 </h3>
-                <p className="text-[#3F64AB] text-sm leading-relaxed">
+                <p className="text-[#3F64AB] text-sm leading-relaxed transition-colors duration-300 group-hover:text-black">
                   Connect with corporates, government agencies, and innovation platforms for pilots and partnerships.
                 </p>
               </div>
             </div>
 
             {/* Benefit 4 */}
-            <div className="flex flex-col items-center relative">
+            <div className="flex flex-col items-center relative group cursor-pointer">
               {/* Icon Circle */}
-              <div ref={benefit4Ref} className="w-32 h-32 bg-white rounded-full flex items-center justify-center mb-6 relative z-10 shadow-lg">
+              <div ref={benefit4Ref} className="w-32 h-32 bg-white rounded-full flex items-center justify-center mb-6 relative z-10 shadow-lg transition-all duration-300 group-hover:scale-110 group-hover:shadow-xl group-hover:shadow-blue-200">
                 {/* Number Badge */}
                 <div className="absolute -top-2 -left-2 w-8 h-8 bg-black text-white rounded-full flex items-center justify-center text-sm font-bold z-20">
                   4
@@ -137,20 +137,20 @@ export function ProgramBenefits() {
                 />
               </div>
               {/* Content */}
-              <div className="text-center max-w-xs">
-                <h3 className="text-xl font-bold text-black mb-3">
+              <div className="text-center max-w-xs transition-all duration-300 group-hover:scale-105">
+                <h3 className="text-xl font-bold text-black mb-3 transition-colors duration-300 group-hover:text-[#3F64AB]">
                   Market Acceleration & Industry Partnerships
                 </h3>
-                <p className="text-[#3F64AB] text-sm leading-relaxed">
+                <p className="text-[#3F64AB] text-sm leading-relaxed transition-colors duration-300 group-hover:text-black">
                   Strategic industry linkages and go-to-market support for customer and market expansion.
                 </p>
               </div>
             </div>
 
             {/* Benefit 5 */}
-            <div className="flex flex-col items-center relative">
+            <div className="flex flex-col items-center relative group cursor-pointer">
               {/* Icon Circle */}
-              <div ref={benefit5Ref} className="w-32 h-32 bg-white rounded-full flex items-center justify-center mb-6 relative z-10 shadow-lg">
+              <div ref={benefit5Ref} className="w-32 h-32 bg-white rounded-full flex items-center justify-center mb-6 relative z-10 shadow-lg transition-all duration-300 group-hover:scale-110 group-hover:shadow-xl group-hover:shadow-blue-200">
                 {/* Number Badge */}
                 <div className="absolute -top-2 -left-2 w-8 h-8 bg-black text-white rounded-full flex items-center justify-center text-sm font-bold z-20">
                   5
@@ -164,11 +164,11 @@ export function ProgramBenefits() {
                 />
               </div>
               {/* Content */}
-              <div className="text-center max-w-xs">
-                <h3 className="text-xl font-bold text-black mb-3">
+              <div className="text-center max-w-xs transition-all duration-300 group-hover:scale-105">
+                <h3 className="text-xl font-bold text-black mb-3 transition-colors duration-300 group-hover:text-[#3F64AB]">
                   Guidance from Industry Veterans & Investors
                 </h3>
-                <p className="text-[#3F64AB] text-sm leading-relaxed">
+                <p className="text-[#3F64AB] text-sm leading-relaxed transition-colors duration-300 group-hover:text-black">
                   Access to seasoned domain experts, investors, and mentors.
                 </p>
               </div>

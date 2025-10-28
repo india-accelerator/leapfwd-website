@@ -22,8 +22,8 @@ export function Navbar() {
 
   return (
     <>
-      {/* Main Navbar - Not Fixed */}
-      <nav className="relative top-0 left-0 right-0 z-40 bg-white border-b border-gray-200">
+      {/* Main Navbar - Fixed */}
+      <nav className="fixed top-0 left-0 right-0 z-40 bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
@@ -95,7 +95,7 @@ export function Navbar() {
 
       {/* Sub Navbar - Becomes Sticky on Scroll */}
       <div 
-        className={`${isSubNavSticky ? 'fixed top-0' : 'relative'} left-0 right-0 z-50 bg-[#E8F4FF] border-b border-gray-200 transition-all duration-300 overflow-hidden ${
+        className={`${isSubNavSticky ? 'fixed top-16' : 'relative'} left-0 right-0 z-50 bg-[#E8F4FF] border-b border-gray-200 transition-all duration-300 overflow-hidden ${
           isSubNavVisible ? 'max-h-20 opacity-100' : 'max-h-0 opacity-0'
         }`}
       >

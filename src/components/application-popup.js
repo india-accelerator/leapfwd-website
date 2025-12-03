@@ -87,7 +87,7 @@ export function ApplicationPopup() {
                 <Presentation className="h-5 w-5 text-[#3F64AB]" />
                 <span className="text-gray-700 font-medium">Demo Day</span>
               </div>
-              <span className="text-gray-600 text-sm">February 2025</span>
+              <span className="text-gray-600 text-sm">February 2026</span>
             </div>
           </div>
 
@@ -103,7 +103,7 @@ export function ApplicationPopup() {
             onClick={() => setIsOpen(false)}
           >
             <Link
-              href="https://indiaaccelerator.co/leapfwd-program/apply/"
+              href="https://indiaaccelerator.live/leapfwd-program/apply/"
               target="_blank"
               rel="noopener noreferrer"
             >

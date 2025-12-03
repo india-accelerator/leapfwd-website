@@ -91,7 +91,7 @@ export function Navbar() {
                 iconPlacement="right"
                 className="bg-black text-white px-6 py-2 rounded-[50px] hover:bg-gray-800 transition-colors duration-200 font-medium text-sm"
               >
-                <Link href="https://indiaaccelerator.co/leapfwd-program/apply/" target="_blank" rel="noopener noreferrer">
+                <Link href="https://indiaaccelerator.live/leapfwd-program/apply/" target="_blank" rel="noopener noreferrer">
                   APPLY NOW
                 </Link>
               </Button>

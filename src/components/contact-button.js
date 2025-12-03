@@ -15,7 +15,7 @@ export function ContactButton() {
         <Tooltip delayDuration={0} open={true}>
           <TooltipTrigger asChild>
             <a
-              href="mailto:leapfwd@indiaaccelerator.co"
+              href="mailto:leapfwd@indiaaccelerator.live"
               className="inline-flex items-center justify-center w-14 h-14 bg-[#3F64AB] text-white rounded-full shadow-lg hover:bg-[#2d4a7c] transition-all duration-200 hover:scale-110"
               aria-label="Contact us"
             >

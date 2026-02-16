@@ -76,6 +76,48 @@ export function MentorsSection() {
       company: "XRE Consultancy",
       image: "/mentor8.jpeg",
     },
+    {
+      id: 9,
+      name: "Srirang Athalye",
+      title: "Group President",
+      company: "Aurum Ventures",
+      image: "/mentor_9.png",
+    },
+    {
+      id: 10,
+      name: "Nibhrant Shah",
+      title: "MD & CEO",
+      company: "Isprava",
+      image: "/mentor_10.png",
+    },
+    {
+      id: 11,
+      name: "Amar Jyoti",
+      title: "Director",
+      company: "Adda247",
+      image: "/mentor_11.png",
+    },
+    {
+      id: 12,
+      name: "Dr. Gaurang J Joshi",
+      title: "Professor, Head of the Department, Transportation Engg & Planning Civil Engineering Department",
+      company: "SVNIT, Surat",
+      image: "/mentor_12.jpeg",
+    },
+    {
+      id: 13,
+      name: "Saurabh Jain",
+      title: "CEO",
+      company: "Livspace",
+      image: "/mentor_13.jpeg",
+    },
+    {
+      id: 14,
+      name: "Amarendra",
+      title: "co-founder and CEO",
+      company: "Nestaway",
+      image: "/mentor_14.png",
+    },
   ];
 
   return (

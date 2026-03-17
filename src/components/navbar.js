@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import logo from "@/assets/arthax-pogram.png";
 import { X, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -29,21 +30,22 @@ export function Navbar() {
             {/* Logo */}
             <div className="flex-shrink-0 flex items-center gap-6">
               <Link href="/" className="flex items-center">
-                <Image
-                  src="/leapfwdProgramLogo.png"
-                  alt="Program Logo"
-                  width={120}
-                  height={40}
-                  className="h-15 w-auto"
-                />
+                <div className="h-10 md:h-12 w-32 md:w-40 relative flex items-center overflow-hidden mix-blend-multiply">
+                   <Image
+                    src={logo}
+                    alt="ArthaX Program Logo"
+                    className="absolute h-auto w-auto top-[40%] md:top-[30%] -translate-y-1/2 object-contain rotate-90"
+                    priority
+                  />
+                </div>
               </Link>
-              <Image
+              {/* <Image
                 src="/navLogos.png"
                 alt="Partner Logos"
                 width={200}
                 height={40}
                 className="h-8 w-auto"
-              />
+              /> */}
             </div>
 
             {/* Navigation Menu */}
@@ -91,7 +93,7 @@ export function Navbar() {
                 iconPlacement="right"
                 className="bg-black text-white px-6 py-2 rounded-[50px] hover:bg-gray-800 transition-colors duration-200 font-medium text-sm"
               >
-                <Link href="https://indiaaccelerator.live/leapfwd-program/apply/" target="_blank" rel="noopener noreferrer">
+                <Link href="#" target="_blank" rel="noopener noreferrer">
                   APPLY NOW
                 </Link>
               </Button>
@@ -111,13 +113,13 @@ export function Navbar() {
             {/* Left Content */}
             <div className="flex items-center gap-2 flex-1">
               <p className="text-sm text-black">
-                Empowering visionary founders and pioneering startups to redefine innovation in{" "}
-                <Link href="#proptech" className="text-blue-600 hover:underline font-medium">
-                  PropTech
+                Accelerating India's next generation of founders in{" "}
+                <Link href="#" className="text-blue-600 hover:underline font-medium">
+                  WealthTech
                 </Link>
                 {" "}and{" "}
-                <Link href="#construction-tech" className="text-blue-600 hover:underline font-medium">
-                  Construction-Tech
+                <Link href="#" className="text-blue-600 hover:underline font-medium">
+                  FinTech infrastructure
                 </Link>
                 .
               </p>

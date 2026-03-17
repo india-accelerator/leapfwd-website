@@ -1,68 +1,30 @@
 import { Navbar } from "@/components/navbar";
-import { HeroSection } from "@/components/hero-section";
-import { AboutSection } from "@/components/about-section";
-import { ProgramBenefits } from "@/components/program-benefits";
-import { MissionSection } from "@/components/mission-section";
-import { AboutUsSection } from "@/components/about-us-section";
-import { MentorsSection } from "@/components/mentors-section";
-import { StartupInfoSection } from "@/components/startup-info-section";
-import { ApplicationPopup } from "@/components/application-popup";
 import { Footer } from "@/components/footer";
-import { AnimatedSection } from "@/components/animated-section";
-import { ContactButton } from "@/components/contact-button";
+
+import { HeroSection } from "@/components/arthax/HeroSection";
+import { ProgramOverview } from "@/components/arthax/ProgramOverview";
+import { BenefitsSection } from "@/components/arthax/BenefitsSection";
+import { WhoShouldApply } from "@/components/arthax/WhoShouldApply";
+import { KeyHighlights } from "@/components/arthax/KeyHighlights";
+import { AboutProgram } from "@/components/arthax/AboutProgram";
+import { CTASection } from "@/components/arthax/CTASection";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white">
-      {/* Navbar */}
+    <div className="min-h-screen bg-[#0A0A0A] font-sans selection:bg-[#0052FF] selection:text-white">
       <Navbar />
       
-      {/* Hero Section */}
-      <AnimatedSection delay={0}>
+      <main>
         <HeroSection />
-      </AnimatedSection>
-      
-      {/* About Section */}
-      <AnimatedSection delay={0}>
-        <AboutSection />
-      </AnimatedSection>
-      
-      {/* Program Benefits Section */}
-      <AnimatedSection delay={100}>
-        <ProgramBenefits />
-      </AnimatedSection>
-      
-      {/* Mission Section */}
-      <AnimatedSection delay={100}>
-        <MissionSection />
-      </AnimatedSection>
-      
-      {/* About Us Section */}
-      <AnimatedSection delay={100}>
-        <AboutUsSection />
-      </AnimatedSection>
-     
-      
-      {/* Startup Info Section */}
-      <AnimatedSection delay={100}>
-        <StartupInfoSection />
-      </AnimatedSection>
-      
-      {/* Mentors Section */}
-      <AnimatedSection delay={100}>
-        <MentorsSection />
-      </AnimatedSection>
+        <ProgramOverview />
+        <BenefitsSection />
+        <WhoShouldApply />
+        <KeyHighlights />
+        <AboutProgram />
+        <CTASection />
+      </main>
 
-      {/* Footer */}
-      <AnimatedSection delay={100}>
-        <Footer />
-      </AnimatedSection>
-
-      {/* Application Popup */}
-      <ApplicationPopup />
-
-      {/* Contact Button */}
-      <ContactButton />
+      <Footer />
     </div>
   );
 }

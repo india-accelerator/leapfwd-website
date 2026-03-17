@@ -5,17 +5,17 @@ export function MissionSection() {
         {/* Header Section */}
         <div className="text-center mb-16">
           <h2 className="text-sm sm:text-2xl font-medium text-[#3F64AB] mb-4 uppercase tracking-wide">
-            JOIN THE LEAPFWD MISSION
+            ABOUT THE ARTHAX PROGRAM
           </h2>
           <h3 className="text-3xl sm:text-4xl font-semibold text-black mb-6 uppercase tracking-wide">
-            SHAPING THE FUTURE OF PROPTECH & CONTECH
+            ADDRESSING STRUCTURAL BARRIERS
           </h3>
           
           {/* Separator Line */}
           <div className="w-16 h-0.5 bg-[#3F64AB] mx-auto mb-8"></div>
           
           <p className="text-md text-black max-w-4xl mx-auto leading-relaxed">
-            At LeapFWD, we're redefining the future of real estate and construction - from smart cities and digital infrastructure to automation and sustainability.
+            India’s wealth market is on a trajectory from $500B to $1.5T by 2030. ArthaX exists to ensure that the fintech startups building the next generation of wealth infrastructure have the partners, access, and support to succeed in this landscape.
           </p>
         </div>
 
@@ -37,10 +37,10 @@ export function MissionSection() {
               </div>
               <div className="flex-1">
                 <h4 className="text-xl font-bold text-white mb-3">
-                  Accepting Application
+                  Integration & Procurement Cycles
                 </h4>
                 <p className="text-white text-sm leading-relaxed">
-                  Startups are invited to send their pitch deck to <span className="underline">example.com</span>
+                  Solving slow bank integrations and procurement cycles that stall growth.
                 </p>
               </div>
             </div>
@@ -59,10 +59,10 @@ export function MissionSection() {
               </div>
               <div className="flex-1">
                 <h4 className="text-xl font-bold text-white mb-3">
-                  Selection
+                  Compliance & RegTech Costs
                 </h4>
                 <p className="text-white text-sm leading-relaxed">
-                  Rigorous selection process by Aroundtown leaders
+                  Overcoming heavy upfront compliance, licensing, and RegTech costs.
                 </p>
               </div>
             </div>
@@ -81,10 +81,10 @@ export function MissionSection() {
               </div>
               <div className="flex-1">
                 <h4 className="text-xl font-bold text-white mb-3">
-                  Investment Committee
+                  Institutional Distribution
                 </h4>
                 <p className="text-white text-sm leading-relaxed">
-                  Final selection by prominent VCs, Aroundtown leaders, and industry experts
+                  Bridging the gap to institutional distribution channels and pilot opportunities.
                 </p>
               </div>
             </div>
@@ -103,10 +103,10 @@ export function MissionSection() {
               </div>
               <div className="flex-1">
                 <h4 className="text-xl font-bold text-white mb-3">
-                  Launch
+                  Risk Framework Adoption
                 </h4>
                 <p className="text-white text-sm leading-relaxed">
-                  The journey of rapid scale begins
+                  Navigating bank risk frameworks that limit adoption of early-stage vendors.
                 </p>
               </div>
             </div>
@@ -128,10 +128,10 @@ export function MissionSection() {
               </div>
               <div className="flex-1">
                 <h4 className="text-xl font-bold text-white mb-3">
-                  Accepting Application
+                  Integration & Procurement Cycles
                 </h4>
                 <p className="text-white text-sm leading-relaxed">
-                  Startups are invited to send their pitch deck to <span className="underline">example.com</span>
+                  Solving slow bank integrations and procurement cycles that stall growth.
                 </p>
               </div>
             </div>
@@ -150,10 +150,10 @@ export function MissionSection() {
               </div>
               <div className="flex-1">
                 <h4 className="text-xl font-bold text-white mb-3">
-                  Selection
+                  Compliance & RegTech Costs
                 </h4>
                 <p className="text-white text-sm leading-relaxed">
-                  Rigorous selection process by Aroundtown leaders
+                  Overcoming heavy upfront compliance, licensing, and RegTech costs.
                 </p>
               </div>
             </div>
@@ -172,10 +172,10 @@ export function MissionSection() {
               </div>
               <div className="flex-1">
                 <h4 className="text-xl font-bold text-white mb-3">
-                  Investment Committee
+                  Institutional Distribution
                 </h4>
                 <p className="text-white text-sm leading-relaxed">
-                  Final selection by prominent VCs, Aroundtown leaders, and industry experts
+                  Bridging the gap to institutional distribution channels and pilot opportunities.
                 </p>
               </div>
             </div>
@@ -194,10 +194,10 @@ export function MissionSection() {
               </div>
               <div className="flex-1">
                 <h4 className="text-xl font-bold text-white mb-3">
-                  Launch
+                  Risk Framework Adoption
                 </h4>
                 <p className="text-white text-sm leading-relaxed">
-                  The journey of rapid scale begins
+                  Navigating bank risk frameworks that limit adoption of early-stage vendors.
                 </p>
               </div>
             </div>
@@ -207,10 +207,10 @@ export function MissionSection() {
         {/* Concluding Section */}
         <div className="text-center">
           <p className="text-lg text-black mb-4 leading-relaxed max-w-4xl mx-auto">
-            Join us in our mission to accelerate India's transition toward a data-driven, tech-enabled, and sustainable built ecosystem.
+            If you are a startup building in this space and would like to participate or partner with ArthaX, reach out to us at: <strong>gunika.grover@indiaaccelerator.co</strong>
           </p>
           <p className="text-xl font-bold text-black">
-            LeapFWD - Where innovation meets impact.
+            ArthaX - Accelerating WealthTech Innovation.
           </p>
         </div>
       </div>

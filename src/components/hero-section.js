@@ -40,17 +40,21 @@ export function HeroSection() {
       <div className="max-w-7xl mx-auto text-center relative z-10">
         {/* Main Heading */}
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light text-white mb-8 leading-tight">
-        LeapFWD - Accelerating the Future of Building
+        ArthaX — Powered by Tipsons Group & India Accelerator
         </h1>
         
         {/* Description */}
         <div className="text-lg sm:text-xl text-white mb-12 max-w-3xl mx-auto leading-relaxed space-y-6">
           <p>
-            LeapFWD is a PropTech & ConTech Accelerator Program jointly driven by India Accelerator (IA) and VS Fortune built to drive innovation, enable rapid growth, and scale breakthrough technologies in the real estate and construction ecosystem.
+            Accelerating India’s next generation of WealthTech founders — from product to pilot to scale.
           </p>
-          <p>
-            Designed for early- and growth-stage startups, LeapFWD bridges innovation with market scalability through mentorship, enterprise partnerships, investor access, and industry validation.
-          </p>
+          <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-8 text-sm sm:text-base font-medium opacity-90 mt-8">
+            <p>Program Partners: Tipsons Group / Techwealth Capital Services & India Accelerator</p>
+          </div>
+          <div className="flex flex-col justify-center gap-2 text-sm opacity-80 mt-4">
+            <p>Key Dates:</p>
+            <p>Program Start Date: [TBD] | Cohort Kickoff: [TBD] | Demo Day: [TBD]</p>
+          </div>
         </div>
         
         {/* Buttons */}

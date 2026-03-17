@@ -109,7 +109,7 @@ export function Footer() {
           {/* Copyright */}
           <div>
             <p className="text-white text-sm">
-              2025 © All rights reserved by LeapFWD
+              2025 © All rights reserved by ArthaX
             </p>
           </div>
         </div>

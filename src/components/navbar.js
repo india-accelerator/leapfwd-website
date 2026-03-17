@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import programImg from "@/assets/arthax-program.png";
 import { useState, useEffect } from "react";
 import { X, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -28,13 +29,11 @@ export function Navbar() {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="flex-shrink-0 flex items-center gap-6">
-              <Link href="/" className="flex items-center">
+              <Link href="/" className="relative flex items-center justify-center w-[160px] h-[40px] overflow-visible">
                 <Image
-                  src="/leapfwdProgramLogo.png"
+                  src={programImg}
                   alt="Program Logo"
-                  width={120}
-                  height={40}
-                  className="h-15 w-auto"
+                  className="absolute top-1/2 left-1/2 w-auto h-[160px] max-w-none transform -translate-x-1/2 -translate-y-1/2 rotate-90 origin-center"
                 />
               </Link>
               <Image

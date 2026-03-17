@@ -42,8 +42,8 @@ export function ApplicationPopup() {
           </div>
 
           {/* Heading */}
-          <DialogTitle className="text-2xl sm:text-2xl font-bold text-center text-black mb-3 uppercase">
-            The LeapFWD Program is live!
+          <DialogTitle className="text-xl sm:text-2xl font-bold text-center text-black px-4">
+            The ArthaX Program is live!
           </DialogTitle>
 
           <p className="text-center text-gray-600 mb-8 text-sm">

@@ -4,7 +4,6 @@ import { AboutSection } from "@/components/about-section";
 import { ProgramBenefits } from "@/components/program-benefits";
 import { MissionSection } from "@/components/mission-section";
 import { AboutUsSection } from "@/components/about-us-section";
-import { MentorsSection } from "@/components/mentors-section";
 import { StartupInfoSection } from "@/components/startup-info-section";
 import { ApplicationPopup } from "@/components/application-popup";
 import { Footer } from "@/components/footer";
@@ -48,11 +47,6 @@ export default function Home() {
         <StartupInfoSection />
       </AnimatedSection>
       
-      {/* Mentors Section */}
-      <AnimatedSection delay={100}>
-        <MentorsSection />
-      </AnimatedSection>
-
       {/* Footer */}
       <AnimatedSection delay={100}>
         <Footer />

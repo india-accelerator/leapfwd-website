@@ -15,10 +15,10 @@ export function AboutUsSection() {
         {/* Header Section */}
         <div className="text-center mb-4">
           <h2 className="text-sm sm:text-2xl font-semibold text-[#3F64AB] mb-4 uppercase tracking-widest">
-            ABOUT US
+            PROGRAM PARTNERS
           </h2>
           <h3 className="text-3xl sm:text-4xl lg:text-4xl font-normal text-black mb-6 uppercase tracking-wide">
-          Driving Innovation Through Partnership
+          Who Is Running the Program
           </h3>
           
           {/* Separator Line */}
@@ -43,7 +43,7 @@ export function AboutUsSection() {
                 </div>
                 {/* Description */}
                 <p className="text-base text-black leading-relaxed text-left">
-                  India Accelerator (IA) is India's leading fund-led accelerator, empowering early-stage startups with access to capital, mentorship, enterprise networks, and investor connects. Recognised for its domain-focused programs across PropTech, FinTech, EV, HealthTech, and more, IA has been instrumental in nurturing some of India's most promising technology ventures.
+                  India Accelerator is India's leading fund-led accelerator with deep strengths in startup ecosystem building. It empowers promising early-stage founders with access to institutional distribution pathways, structured mentorship, and investors.
                 </p>
               </div>
             </div>
@@ -53,17 +53,13 @@ export function AboutUsSection() {
               <div className="flex flex-col items-center text-center h-full">
                 {/* Logo */}
                 <div className="mb-6">
-                  <Image
-                    src="/v_s_fortune_logo.jpeg.jpg"
-                    alt="VS Fortune"
-                    width={120}
-                    height={40}
-                    className="h-20 w-auto"
-                  />
+                  <div className="h-20 flex items-center justify-center font-bold text-2xl text-[#3F64AB]">
+                    TIPSONS GROUP
+                  </div>
                 </div>
                 {/* Description */}
                 <p className="text-base text-black leading-relaxed text-left">
-                  VS Fortune Management and Consulting Pvt. Ltd., is a strategic advisory & business management firm committed to driving innovation, partnerships & sustainable growth. Through LeapFWD, VS Fortune supports the PropTech & ConTech ecosystem by facilitating industry collaborations, investor linkages & strategic scale-up pathways for high-potential startup.
+                  Tipsons Group (and its digital arm, Techwealth Capital Services) brings deep complementary strengths in financial markets. Tipsons provides ArthaX startups with a defined pilot pathway, real-time market validation, and revenue opportunities through its 5,000+ corporate relationships.
                 </p>
               </div>
             </div>

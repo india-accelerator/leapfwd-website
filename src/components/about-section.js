@@ -6,12 +6,12 @@ export function AboutSection() {
         <div className="text-center mb-16">
           {/* Small Heading */}
           <h2 className="text-sm sm:text-2xl font-semibold text-[#3F64AB] mb-4 uppercase tracking-widest">
-            ABOUT THE PROGRAM
+            PROGRAM OVERVIEW
           </h2>
           
           {/* Main Heading */}
           <h3 className="text-2xl sm:text-4xl lg:text-5xl font-normal text-black mb-6 uppercase tracking-wide">
-            READY TO TRANSFORM HOW INDIA BUILDS?
+            ARTHAX ACCELERATOR
           </h3>
           
           {/* Separator Line */}
@@ -19,7 +19,7 @@ export function AboutSection() {
           
           {/* Description */}
           <p className="text-base sm:text-lg text-black max-w-5xl mx-auto leading-relaxed">
-            From smart infrastructure to sustainable construction we're enabling startups to shape the next era of India's built environment.
+            ArthaX is a joint accelerator initiative powered by Tipsons Group and India Accelerator, purpose-built for fintech startups operating at the intersection of wealth management, financial infrastructure, and regulatory technology. The program is designed to bridge the gap between promising early-stage founders and the institutional access, mentorship, and distribution pathways they need to scale.
           </p>
         </div>
 
@@ -41,10 +41,10 @@ export function AboutSection() {
               </div>
               <div className="flex-1">
                 <h4 className="text-xl font-bold text-white mb-3">
-                  Market Enablement
+                  Expert Guidance & Mentorship
                 </h4>
                 <p className="text-white text-sm leading-relaxed">
-                  Strategic industry linkages and go-to-market support to access new customers and markets.
+                  Structured mentorship from domain specialists across wealth management, compliance, digital rails, and go-to-market strategy.
                 </p>
               </div>
             </div>
@@ -63,10 +63,10 @@ export function AboutSection() {
               </div>
               <div className="flex-1">
                 <h4 className="text-xl font-bold text-white mb-3">
-                  One-to-One Mentorship
+                  Strategic Partnerships & Market Access
                 </h4>
                 <p className="text-white text-sm leading-relaxed">
-                  Tailored guidance from seasoned domain experts, investors, and business mentors to refine business models and drive execution.
+                  A defined pilot pathway with Tipsons Group or partner institutions, providing real-world market feedback and institutional credibility.
                 </p>
               </div>
             </div>
@@ -85,10 +85,10 @@ export function AboutSection() {
               </div>
               <div className="flex-1">
                 <h4 className="text-xl font-bold text-white mb-3">
-                  Industry Access
+                  Funding & Investor Engagement
                 </h4>
                 <p className="text-white text-sm leading-relaxed">
-                  Exposure to leading corporates, government agencies, and innovation platforms for pilot projects, partnerships, and enterprise validation.
+                  Direct access to investors for Seed through early Series A rounds, including India Accelerator’s network of 2,000+ active angels and its Finvolve fund platform.
                 </p>
               </div>
             </div>
@@ -107,10 +107,10 @@ export function AboutSection() {
               </div>
               <div className="flex-1">
                 <h4 className="text-xl font-bold text-white mb-3">
-                  Business Generation Support
+                  Go-to-Market and Scaling Support
                 </h4>
                 <p className="text-white text-sm leading-relaxed">
-                  Facilitation of B2B and B2G linkages, lead generation opportunities, and revenue pipeline support.
+                  Tailored go-to-market support, visibility within the WealthTech ecosystem through curated events and partner showcases, and post-program partner integration support.
                 </p>
               </div>
             </div>
@@ -132,10 +132,10 @@ export function AboutSection() {
               </div>
               <div className="flex-1">
                 <h4 className="text-xl font-bold text-white mb-3">
-                  Market Enablement
+                  Expert Guidance & Mentorship
                 </h4>
                 <p className="text-white text-sm leading-relaxed">
-                  Strategic industry linkages and go-to-market support to access new customers and markets.
+                  Structured mentorship from domain specialists across wealth management, compliance, digital rails, and go-to-market strategy.
                 </p>
               </div>
             </div>
@@ -154,10 +154,10 @@ export function AboutSection() {
               </div>
               <div className="flex-1">
                 <h4 className="text-xl font-bold text-white mb-3">
-                  One-to-One Mentorship
+                  Strategic Partnerships & Market Access
                 </h4>
                 <p className="text-white text-sm leading-relaxed">
-                  Tailored guidance from seasoned domain experts, investors, and business mentors to refine business models and drive execution.
+                  A defined pilot pathway with Tipsons Group or partner institutions, providing real-world market feedback and institutional credibility.
                 </p>
               </div>
             </div>
@@ -176,10 +176,10 @@ export function AboutSection() {
               </div>
               <div className="flex-1">
                 <h4 className="text-xl font-bold text-white mb-3">
-                  Industry Access
+                  Funding & Investor Engagement
                 </h4>
                 <p className="text-white text-sm leading-relaxed">
-                  Exposure to leading corporates, government agencies, and innovation platforms for pilot projects, partnerships, and enterprise validation.
+                  Direct access to investors for Seed through early Series A rounds, including India Accelerator’s network of 2,000+ active angels and its Finvolve fund platform.
                 </p>
               </div>
             </div>
@@ -198,10 +198,10 @@ export function AboutSection() {
               </div>
               <div className="flex-1">
                 <h4 className="text-xl font-bold text-white mb-3">
-                  Business Generation Support
+                  Go-to-Market and Scaling Support
                 </h4>
                 <p className="text-white text-sm leading-relaxed">
-                  Facilitation of B2B and B2G linkages, lead generation opportunities, and revenue pipeline support.
+                  Tailored go-to-market support, visibility within the WealthTech ecosystem through curated events and partner showcases, and post-program partner integration support.
                 </p>
               </div>
             </div>

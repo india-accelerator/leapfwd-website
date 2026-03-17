@@ -24,11 +24,11 @@ export function ProgramBenefits() {
         {/* Main Heading */}
         <div className="text-center mb-16">
           <h2 className="text-sm sm:text-2xl font-medium  text-[#3F64AB] mb-6 uppercase tracking-wide">
-            LEAPFWD PROGRAM BENEFITS
+            PROGRAM BENEFITS SUMMARY
           </h2>
           <h3 className="text-2xl sm:text-3xl font-bold text-black mb-6 uppercase tracking-wide">
-            SHAPING THE FUTURE OF REAL ESTATE
-          
+            KEY HIGHLIGHTS FOR WEALTHTECH
+
           {/* Separator Line */}
           <div className="w-16 h-0.5 bg-[#3F64AB] mx-auto mt-6"></div>
           
@@ -58,10 +58,10 @@ export function ProgramBenefits() {
               {/* Content */}
               <div className="text-center max-w-xs transition-all duration-300 group-hover:scale-105">
                 <h3 className="text-xl font-bold text-black mb-3 transition-colors duration-300 group-hover:text-[#3F64AB]">
-                  Business Growth & Market Access Support
+                  Investment Preparation
                 </h3>
                 <p className="text-[#3F64AB] text-sm leading-relaxed transition-colors duration-300 group-hover:text-black">
-                  Support for B2B/B2G linkages, lead generation, business model refinement, and pitch preparation.
+                  Access to investors for Seed to Series A rounds through Finvolve fund and established angel networks.
                 </p>
               </div>
             </div>
@@ -85,10 +85,10 @@ export function ProgramBenefits() {
               {/* Content */}
               <div className="text-center max-w-xs transition-all duration-300 group-hover:scale-105">
                 <h3 className="text-xl font-bold text-black mb-3 transition-colors duration-300 group-hover:text-[#3F64AB]">
-                  Funding And Investor Access
+                  Expansion Strategies
                 </h3>
                 <p className="text-[#3F64AB] text-sm leading-relaxed transition-colors duration-300 group-hover:text-black">
-                  Access to funding opportunities through investor connects, pitch sessions, and curated introductions.
+                  Hands-on support to build integration pathways with banks, NBFCs, and API partners for institutional scale.
                 </p>
               </div>
             </div>
@@ -112,10 +112,10 @@ export function ProgramBenefits() {
               {/* Content */}
               <div className="text-center max-w-xs transition-all duration-300 group-hover:scale-105">
                 <h3 className="text-xl font-bold text-black mb-3 transition-colors duration-300 group-hover:text-[#3F64AB]">
-                  Build Strategic Partnerships & Pilot Opportunities
+                  Market Access & Pilots
                 </h3>
                 <p className="text-[#3F64AB] text-sm leading-relaxed transition-colors duration-300 group-hover:text-black">
-                  Connect with corporates, government agencies, and innovation platforms for pilots and partnerships.
+                  A defined pilot pathway with Tipsons Group or its partner institutions for real-time market validation.
                 </p>
               </div>
             </div>
@@ -139,10 +139,10 @@ export function ProgramBenefits() {
               {/* Content */}
               <div className="text-center max-w-xs transition-all duration-300 group-hover:scale-105">
                 <h3 className="text-xl font-bold text-black mb-3 transition-colors duration-300 group-hover:text-[#3F64AB]">
-                  Market Acceleration & Industry Partnerships
+                  Corporate & Enterprise Exposure
                 </h3>
                 <p className="text-[#3F64AB] text-sm leading-relaxed transition-colors duration-300 group-hover:text-black">
-                  Strategic industry linkages and go-to-market support for customer and market expansion.
+                  Access to Tipsons 5,000+ relationships and visibility within the broader WealthTech ecosystem.
                 </p>
               </div>
             </div>
@@ -166,10 +166,10 @@ export function ProgramBenefits() {
               {/* Content */}
               <div className="text-center max-w-xs transition-all duration-300 group-hover:scale-105">
                 <h3 className="text-xl font-bold text-black mb-3 transition-colors duration-300 group-hover:text-[#3F64AB]">
-                  Guidance from Industry Veterans & Investors
+                  Tailored Go-to-Market Support
                 </h3>
                 <p className="text-[#3F64AB] text-sm leading-relaxed transition-colors duration-300 group-hover:text-black">
-                  Access to seasoned domain experts, investors, and mentors.
+                  Diagnostic assessment of product, compliance, and distribution readiness followed by targeted strategy support.
                 </p>
               </div>
             </div>

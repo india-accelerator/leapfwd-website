@@ -30,11 +30,11 @@ export function Navbar() {
             {/* Logo */}
             <div className="flex-shrink-0 flex items-center gap-6">
               <Link href="/" className="flex items-center">
-                <div className="h-10 md:h-12 w-32 md:w-40 relative flex items-center overflow-hidden mix-blend-multiply">
+                <div className="h-10 md:h-12 w-32 md:w-36 relative flex items-center justify-center mix-blend-multiply">
                    <Image
                     src={logo}
                     alt="ArthaX Program Logo"
-                    className="absolute h-auto w-auto top-[40%] md:top-[30%] -translate-y-1/2 object-contain rotate-90"
+                    className="absolute h-[250%] md:h-[300%] w-auto object-contain rotate-90 mix-blend-multiply"
                     priority
                   />
                 </div>

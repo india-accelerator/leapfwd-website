@@ -46,9 +46,11 @@ export function ApplicationPopup() {
             The ArthaX Program is live!
           </DialogTitle>
 
+          {/* This line is commented out because it references old program positioning.
           <p className="text-center text-gray-600 mb-8 text-sm">
             PropTech and ConTech startups, this is your moment.
           </p>
+          */}
 
           {/* Timeline */}
           <div className="space-y-4 mb-8">
@@ -103,7 +105,7 @@ export function ApplicationPopup() {
             onClick={() => setIsOpen(false)}
           >
             <Link
-              href="https://indiaaccelerator.live/leapfwd-program/apply/"
+              href="https://www.indiaaccelerator.co/arthax-program/apply/"
               target="_blank"
               rel="noopener noreferrer"
             >

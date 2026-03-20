@@ -85,7 +85,7 @@ export function HeroSection() {
             iconPlacement="right"
             className="bg-[#fff] text-black px-8 py-3 rounded-[50px] hover:bg-[#fff] transition-colors duration-200 font-medium text-lg"
           >
-            <Link href="https://indiaaccelerator.live/leapfwd-program/apply/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.indiaaccelerator.co/arthax-program/apply/" target="_blank" rel="noopener noreferrer">
               APPLY NOW
             </Link>
           </Button>

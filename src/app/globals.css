@@ -186,6 +186,15 @@
   }
 }
 
+@keyframes marquee-left {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
 .animate-accordion-down {
   animation: accordion-down 0.2s ease-out;
 }
@@ -204,4 +213,18 @@
 
 .animate-fadeIn {
   animation: fadeIn 0.3s ease-out;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee-left 32s linear infinite;
+  will-change: transform;
+}
+
+.marquee-fade {
+  inset: 0;
+  position: absolute;
+  background:
+    linear-gradient(90deg, #f7fafe 0%, rgba(247, 250, 254, 0) 10%, rgba(247, 250, 254, 0) 90%, #ffffff 100%);
 }

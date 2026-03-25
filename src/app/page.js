@@ -4,6 +4,7 @@ import { AboutSection } from "@/components/about-section";
 import { ProgramBenefits } from "@/components/program-benefits";
 import { MissionSection } from "@/components/mission-section";
 import { AboutUsSection } from "@/components/about-us-section";
+import { JoinedStartupsSection } from "@/components/joined-startups-section";
 import { MentorsSection } from "@/components/mentors-section";
 import { StartupInfoSection } from "@/components/startup-info-section";
 import { ApplicationPopup } from "@/components/application-popup";
@@ -40,6 +41,11 @@ export default function Home() {
       {/* About Us Section */}
       <AnimatedSection delay={100}>
         <AboutUsSection />
+      </AnimatedSection>
+
+      {/* Joined Startups Section */}
+      <AnimatedSection delay={100}>
+        <JoinedStartupsSection />
       </AnimatedSection>
      
       

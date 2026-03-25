@@ -5,15 +5,17 @@ import Image from "next/image";
 const startups = [
   {
     name: "Ajnhawk",
-    logo: "/ajnhawk.jpeg",
+    logo: "/ajnhawk.png",
   },
   {
     name: "Ctruh",
     logo: "/crtuh-removebg-preview.png",
+    logoScale: 1.12,
   },
   {
-    name: "Dats & Wittson",
+    name: "Daten & Wissen",
     logo: "/dats-and-wittson-removebg-preview.png",
+    logoScale: 1.18,
   },
   {
     name: "Indecimal",
@@ -22,22 +24,27 @@ const startups = [
   {
     name: "Micob",
     logo: "/micob-removebg-preview.png",
+    logoScale: 1.12,
   },
   {
-    name: "Recyclersaltech",
+    name: "Saltech Design Labs",
     logo: "/recyclersaltech_logo-removebg-preview.png",
+    logoScale: 1.08,
   },
   {
-    name: "Sitepace",
+    name: "Sitepace AI",
     logo: "/sitepace-removebg-preview%20.png",
+    logoScale: 1.1,
   },
   {
     name: "Strawcture",
     logo: "/strawcture_eco_cover-removebg-preview.png",
+    logoScale: 1.08,
   },
   {
     name: "Townplanmap",
     logo: "/townplanmap.png",
+    logoScale: 1.06,
   },
 ];
 
@@ -69,9 +76,9 @@ export function JoinedStartupsSection() {
           </p>
         </div>
 
-        <div className="grid items-start gap-6 lg:grid-cols-[0.95fr_2.05fr]">
-          <div className="max-w-lg overflow-hidden rounded-[28px] bg-[#123C6B] p-6 text-white shadow-[0_20px_60px_rgba(18,60,107,0.18)] sm:p-7 lg:p-8">
-            <div className="space-y-5">
+        <div className="grid items-stretch gap-6 lg:grid-cols-[0.95fr_2.05fr]">
+          <div className="h-full max-w-lg overflow-hidden rounded-[28px] bg-[#123C6B] p-6 text-white shadow-[0_20px_60px_rgba(18,60,107,0.18)] sm:p-7 lg:p-8">
+            <div className="flex h-full flex-col justify-between gap-6">
               <div>
                 <p className="text-4xl font-semibold leading-none sm:text-5xl">09</p>
                 <p className="mt-2 text-xs uppercase tracking-[0.28em] text-white/70 sm:text-sm">
@@ -95,14 +102,19 @@ export function JoinedStartupsSection() {
                   key={`${startup.name}-${index}`}
                   className="group mx-3 flex w-[230px] flex-shrink-0 flex-col justify-between rounded-[24px] border border-[#D9E6F6] bg-white p-5 shadow-[0_12px_36px_rgba(63,100,171,0.08)] transition-all duration-300 hover:-translate-y-1 hover:border-[#9EB7DD] hover:shadow-[0_18px_48px_rgba(63,100,171,0.16)] sm:w-[250px]"
                 >
-                  <div className="flex min-h-[110px] items-center justify-center rounded-[18px] bg-[linear-gradient(180deg,#F9FBFE_0%,#EEF4FB_100%)] p-5">
-                    <Image
-                      src={startup.logo}
-                      alt={`${startup.name} logo`}
-                      width={170}
-                      height={76}
-                      className="h-auto max-h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
-                    />
+                  <div className="flex items-center justify-center rounded-[18px] bg-[linear-gradient(180deg,#F9FBFE_0%,#EEF4FB_100%)] p-5">
+                    <div className="relative h-[104px] w-full">
+                      <Image
+                        src={startup.logo}
+                        alt={`${startup.name} logo`}
+                        fill
+                        sizes="(max-width: 640px) 180px, 200px"
+                        className="object-contain transition-transform duration-300 group-hover:scale-[1.04]"
+                        style={{
+                          transform: `scale(${startup.logoScale ?? 1})`,
+                        }}
+                      />
+                    </div>
                   </div>
 
                   <div className="mt-4 flex items-center justify-between gap-3">
